@@ -1,1 +1,107 @@
+📘 Loops in DSA
+🟢 Introduction
 
+A loop is a control structure that allows repeated execution of a block of code until a condition is met.
+
+In DSA, loops are used to traverse data structures and implement algorithms efficiently.
+
+🟢 Why Loops are Important in DSA
+
+Loops are used to:
+
+Traverse arrays, lists, strings
+Perform repeated calculations
+Implement searching & sorting algorithms
+Reduce code duplication
+
+👉 Without loops → most DSA problems cannot be solved.
+
+🟢 Types of Loops
+🔹 1. for Loop (Most Used ⭐)
+for (initialization; condition; update) {
+    // code
+}
+Example:
+for (int i = 0; i < 5; i++) {
+    printf("%d ", i);
+}
+🔹 2. while Loop
+while (condition) {
+    // code
+}
+Example:
+int i = 0;
+while (i < 5) {
+    printf("%d ", i);
+    i++;
+}
+🔹 3. do-while Loop
+do {
+    // code
+} while (condition);
+Example:
+int i = 0;
+do {
+    printf("%d ", i);
+    i++;
+} while (i < 5);
+🟢 Loop Flow Visualization
+5
+🟢 Loop Control Statements
+🔹 break
+Terminates loop immediately
+for (int i = 0; i < 10; i++) {
+    if (i == 5) break;
+}
+🔹 continue
+Skips current iteration
+for (int i = 0; i < 5; i++) {
+    if (i == 2) continue;
+    printf("%d ", i);
+}
+🟢 Nested Loops (VERY IMPORTANT 🔥)
+
+Loop inside another loop.
+
+for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 3; j++) {
+        printf("* ");
+    }
+    printf("\n");
+}
+
+👉 Used in:
+
+Pattern problems
+Matrix traversal
+Sorting algorithms
+🟢 Loops in DSA Algorithms
+Example: Array Traversal
+int arr[] = {1, 2, 3, 4, 5};
+
+for (int i = 0; i < 5; i++) {
+    printf("%d ", arr[i]);
+}
+Example: Sum of Array
+int sum = 0;
+
+for (int i = 0; i < n; i++) {
+    sum += arr[i];
+}
+🟢 Time Complexity Insight ⚡
+Single loop → O(n)
+Nested loops → O(n²)
+
+👉 Loops directly impact algorithm efficiency.
+
+🟢 Common Mistakes ❌
+Infinite loops
+Wrong condition
+Off-by-one errors (i <= n vs i < n)
+Forgetting update step
+
+
+🟢 Conclusion
+
+Loops are one of the most powerful tools in DSA.
+Mastering loops is essential for solving problems efficiently and understanding algorithm complexity.
