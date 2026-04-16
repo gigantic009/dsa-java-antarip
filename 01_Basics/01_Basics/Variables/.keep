@@ -1,1 +1,105 @@
+📘 Basic Variables
+🟢 Introduction
+A variable is a named memory location used to store data that can be modified during program execution.
+In DSA, variables are the building blocks of algorithms.
 
+🟢 What is a Variable?
+A variable stores data
+Each variable has:
+Name (identifier)
+Value
+Data Type
+Example:
+int age = 19;
+age → variable name
+19 → value
+int → data type
+🟢 Importance in DSA
+
+Variables are used to:
+Store inputs
+Perform calculations
+Control loops and conditions
+Track results
+
+🟢 Basic Data Types
+Data Type	Description	Example
+int	Integer (whole numbers)	int x = 10;
+float	Decimal numbers	float pi = 3.14;
+char	Single character	char grade = 'A';
+bool	True/False	bool flag = true;
+
+🟢 Declaration & Initialization
+Declaration:
+int x;
+Initialization:
+x = 5;
+Combined:
+int x = 5;
+
+🟢 Rules for Naming Variables
+✔ Must start with a letter or _
+✔ Cannot start with a number
+✔ No spaces allowed
+✔ Cannot use reserved keywords
+
+Valid:
+total, _count, sum1
+Invalid:
+1sum, total marks, int
+
+🟢 Memory Concept
+Every variable occupies memory
+Size depends on data type:
+Type	Size
+int	4 bytes
+char	1 byte
+float	4 bytes
+
+👉 Important for Space Complexity in DSA
+
+🟢 Example (C vs Java)
+
+Java
+class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        System.out.println(x);
+    }
+}
+🟢 Example in DSA
+Sum of Two Numbers
+int a = 5;
+int b = 10;
+int sum = a + b;
+🟢 Common Mistakes
+
+❌ Using uninitialized variables
+❌ Wrong data types
+❌ Confusing = and ==
+❌ Overflow errors
+
+🟢 Practice Questions
+Q1:
+int a = 5;
+int b = 3;
+int c = a + b * 2;
+
+👉 Output?
+
+Q2:
+
+Which is valid variable name?
+
+A) 1num
+B) total_sum
+C) float
+D) total sum
+Q3:
+
+Which data type is suitable for storing 3.75?
+
+🟢 Conclusion
+
+Variables are fundamental in programming and DSA.
+Understanding them properly is essential before moving to advanced topics like arrays, pointers, and data structures.
