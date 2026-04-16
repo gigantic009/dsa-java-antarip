@@ -1,1 +1,111 @@
+📘 Functions in DSA
+🟢 Introduction
 
+A function is a reusable block of code that performs a specific task.
+
+In DSA, functions help break complex problems into smaller, manageable parts.
+
+🟢 Why Functions are Important in DSA
+
+Functions are used to:
+
+Improve code readability
+Reduce repetition (reusability)
+Simplify complex algorithms
+Enable modular programming
+
+👉 Every algorithm in DSA is basically a combination of functions.
+
+🟢 Basic Structure of a Function
+🔹 Syntax (C)
+return_type function_name(parameters) {
+    // function body
+    return value;
+}
+🟢 Example Function
+🔹 C
+int add(int a, int b) {
+    return a + b;
+}
+🔹 Java
+static int add(int a, int b) {
+    return a + b;
+}
+🟢 Function Components
+Component	Description
+Return Type	Type of value returned
+Function Name	Identifier
+Parameters	Input values
+Body	Logic of function
+Return Statement	Sends result back
+🟢 Types of Functions
+🔹 1. No Parameters, No Return
+void greet() {
+    printf("Hello");
+}
+🔹 2. Parameters, No Return
+void printSum(int a, int b) {
+    printf("%d", a + b);
+}
+🔹 3. No Parameters, Return Value
+int getNumber() {
+    return 5;
+}
+🔹 4. Parameters & Return Value (Most Important ⭐)
+int multiply(int a, int b) {
+    return a * b;
+}
+🟢 Function Call
+int result = add(5, 3);
+
+👉 Execution flow:
+
+Call function
+Pass arguments
+Execute function body
+Return result
+🟢 Functions in DSA Algorithms
+Example: Find Maximum
+int max(int a, int b) {
+    if (a > b)
+        return a;
+    else
+        return b;
+}
+🟢 Pass by Value vs Reference
+🔹 Pass by Value
+Copy of variable is passed
+Original value not changed
+🔹 Pass by Reference
+Address is passed
+Original value can change
+Example (C)
+void update(int *x) {
+    *x = 10;
+}
+🟢 Recursion (VERY IMPORTANT 🔥)
+
+A function calling itself.
+
+Example:
+int factorial(int n) {
+    if (n == 0)
+        return 1;
+    return n * factorial(n - 1);
+}
+🟢 Advantages of Functions
+
+✔ Code reusability
+✔ Modular design
+✔ Easy debugging
+✔ Better readability
+
+🟢 Common Mistakes ❌
+Missing return statement
+Infinite recursion
+Wrong data types
+Not passing correct arguments
+🟢 Conclusion
+
+Functions are essential in DSA for writing efficient and modular code.
+They form the base for solving complex algorithmic problems.
